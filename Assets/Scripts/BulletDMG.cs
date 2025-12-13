@@ -1,9 +1,28 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class BulletDamage : MonoBehaviour
 {
-    public float damage = 5f;
-    public float destroyDelay = 0.02f;
+    [Header("Bullet Settings")]
+    public float speed = 50f;
+    public float damage = 6f;
+    public float lifeTime = 15f;
+
+    Rigidbody rb;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void Start()
+    {
+        // Launch the bullet forward
+        rb.linearVelocity = transform.forward * speed;
+
+        // Auto-destroy after time
+        Destroy(gameObject, lifeTime);
+    }
 
     void OnCollisionEnter(Collision collision)
     {
@@ -14,7 +33,6 @@ public class BulletDamage : MonoBehaviour
             health.TakeDamage(damage);
         }
 
-        // Destroy bullet after hit
-        Destroy(gameObject, destroyDelay);
+        Destroy(gameObject);
     }
 }
