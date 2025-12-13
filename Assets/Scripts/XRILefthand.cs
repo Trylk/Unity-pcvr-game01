@@ -34,4 +34,15 @@ public class XRI_LeftHand_Input : MonoBehaviour
 
         // Debug Console
         if (triggerValue > 0.1f)
-            Debug.Log("Left Trigger : " + trigg
+            Debug.Log("Left Trigger: " + triggerValue);
+
+        if (gripValue > 0.1f)
+            Debug.Log("Left Grip: " + gripValue);
+
+        if (joyValue != Vector2.zero)
+            Debug.Log("Left Joystick: " + joyValue);
+
+        if (primaryPressed)
+            Debug.Log("Left Primary Button Pressed");
+    }
+}
