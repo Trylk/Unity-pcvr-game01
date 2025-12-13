@@ -48,6 +48,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ShootingProjectile.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToAxisXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToSliderXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToButtonXRInput.cs" />
@@ -57,18 +58,18 @@
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\AutomaticTrackingModeChangerXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToAxisXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToButtonXRInputHand.cs" />
+    <Compile Include="Assets\Scripts\XR_Hand_Tracking.cs" />
+    <Compile Include="Assets\Scripts\XR_Input.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\TrackingModeOriginXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToHapticsXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToControlXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVisibilityXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\MarkLateLatchNodeXRInput.cs" />
-    <Compile Include="Assets\Scripts\XRILefthand.cs" />
     <Compile Include="Assets\Level 01\Sound.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\DisplayDeviceInfoFromActionXRInput.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider.cs" />
-    <Compile Include="Assets\Scripts\XRIRighthand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider_NameDevice.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToDeviceInfoXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVector2XRInput.cs" />
