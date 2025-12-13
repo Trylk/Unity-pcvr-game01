@@ -1575,10 +1575,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 1498893969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428bc3c779f5d744f84d8aa189bce1b6, type: 3}
+  m_Script: {fileID: 11500000, guid: b25d6abe0a0210f448fe0ee812a2b4cc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::XRControllerTracking
-  node: 5
+  m_EditorClassIdentifier: Assembly-CSharp::XRI_Hand_Input
+  hand: 1
+  trigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0d70d18b-55c5-4d1e-9843-099ca257736d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  grip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a80be26a-8ed8-44cc-8f77-db2676d6fcea
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  joystick:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Joystick
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ceb1ac0b-8c87-488a-8193-6fca73a52b2f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  primaryButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Primary Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 00208f8a-c192-4b2c-b909-778486ce135b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!114 &1498893972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1590,7 +1638,19 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a697c17d1c03037458f9af7627f650cd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DesktopShooter
+  m_EditorClassIdentifier: Assembly-CSharp::VRShooter
+  trigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 437c3a95-f84d-476d-8dc8-d750d4a533a1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   bulletPrefab: {fileID: 1845867955}
   firePoint: {fileID: 1498893970}
   bulletSpeed: 30
@@ -2204,10 +2264,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893249152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428bc3c779f5d744f84d8aa189bce1b6, type: 3}
+  m_Script: {fileID: 11500000, guid: b25d6abe0a0210f448fe0ee812a2b4cc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::XRControllerTracking
-  node: 4
+  m_EditorClassIdentifier: Assembly-CSharp::XRI_Hand_Input
+  hand: 0
+  trigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: df386635-5790-42a1-a14e-99cb63cd8817
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  grip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1244b679-df05-43aa-a018-ab79430dbd89
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  joystick:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Joystick
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 969831da-d03e-4316-9963-9702a7be2909
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  primaryButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Primary Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 21b8c8a7-17e1-4b02-a31f-748079975c4c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1

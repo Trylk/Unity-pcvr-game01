@@ -1,9 +1,18 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class XRI_RightHand_Input : MonoBehaviour
+public class XRI_Hand_Input : MonoBehaviour
 {
-    [Header("Input Actions (XRI RightHand)")]
+    public enum HandSide
+    {
+        Left,
+        Right
+    }
+
+    [Header("Hand Selection")]
+    public HandSide hand = HandSide.Right;
+
+    [Header("Input Actions")]
     public InputActionProperty trigger;
     public InputActionProperty grip;
     public InputActionProperty joystick;
@@ -32,17 +41,19 @@ public class XRI_RightHand_Input : MonoBehaviour
         Vector2 joyValue = joystick.action.ReadValue<Vector2>();
         bool primaryPressed = primaryButton.action.IsPressed();
 
-        // Debug (visible dans la Console)
+        string side = hand == HandSide.Left ? "Left" : "Right";
+
+        // Debug
         if (triggerValue > 0.1f)
-            Debug.Log("Right Trigger : " + triggerValue);
+            Debug.Log($"{side} Trigger: {triggerValue}");
 
         if (gripValue > 0.1f)
-            Debug.Log("Right Grip : " + gripValue);
+            Debug.Log($"{side} Grip: {gripValue}");
 
         if (joyValue != Vector2.zero)
-            Debug.Log("Right Joystick : " + joyValue);
+            Debug.Log($"{side} Joystick: {joyValue}");
 
         if (primaryPressed)
-            Debug.Log("Right Primary Button Pressed");
+            Debug.Log($"{side} Primary Button Pressed");
     }
 }
