@@ -72,6 +72,7 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\DisplayDeviceInfoFromActionXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider_NameDevice.cs" />
     <Compile Include="Assets\Scripts\DesktopShooting.cs" />
