@@ -49,10 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShootingProjectile.cs" />
+    <Compile Include="Assets\Scripts\BulletPool.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToAxisXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToSliderXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToButtonXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVisibilityXRInput.cs" />
+    <Compile Include="Assets\Scripts\XR_Locomotion.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVector2SliderXRInput.cs" />
     <Compile Include="Assets\Level 01\VR Controllers.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\AutomaticTrackingModeChangerXRInput.cs" />
@@ -66,12 +68,15 @@
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVisibilityXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\MarkLateLatchNodeXRInput.cs" />
     <Compile Include="Assets\Level 01\Sound.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\DisplayDeviceInfoFromActionXRInput.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider_NameDevice.cs" />
+    <Compile Include="Assets\Scripts\DesktopShooting.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToDeviceInfoXRInput.cs" />
+    <Compile Include="Assets\Scripts\TargetHealth.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVector2XRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToControlXRInputHand.cs" />
   </ItemGroup>
