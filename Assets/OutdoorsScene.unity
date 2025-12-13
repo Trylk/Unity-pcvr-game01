@@ -585,13 +585,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207000017}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.08, y: 0.28, z: -0.314}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259570675}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &207000019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392822900}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -966,7 +966,7 @@ Transform:
   - {fileID: 1893249153}
   - {fileID: 1498893970}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &392822904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1543,6 +1543,7 @@ GameObject:
   - component: {fileID: 1498893970}
   - component: {fileID: 1498893971}
   - component: {fileID: 1498893972}
+  - component: {fileID: 1498893973}
   m_Layer: 0
   m_Name: RightController
   m_TagString: Untagged
@@ -1654,6 +1655,19 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1845867955}
   firePoint: {fileID: 1498893970}
   bulletSpeed: 30
+--- !u!114 &1498893973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498893969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd9a12b96ad58248bb30feceb19c177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRI_Hand_Tracking
+  handNode: 5
 --- !u!1001 &1603837950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2232,6 +2246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893249153}
   - component: {fileID: 1893249154}
+  - component: {fileID: 1893249155}
   m_Layer: 0
   m_Name: LeftController
   m_TagString: Untagged
@@ -2316,6 +2331,19 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+--- !u!114 &1893249155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893249152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd9a12b96ad58248bb30feceb19c177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRI_Hand_Tracking
+  handNode: 4
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
