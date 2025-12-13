@@ -53,6 +53,7 @@
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToButtonXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVisibilityXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVector2SliderXRInput.cs" />
+    <Compile Include="Assets\Level 01\VR Controllers.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\AutomaticTrackingModeChangerXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToAxisXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToButtonXRInputHand.cs" />
@@ -61,11 +62,13 @@
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToControlXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVisibilityXRInputHand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\MarkLateLatchNodeXRInput.cs" />
+    <Compile Include="Assets\Scripts\XRILefthand.cs" />
     <Compile Include="Assets\Level 01\Sound.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\DisplayDeviceInfoFromActionXRInput.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider.cs" />
+    <Compile Include="Assets\Scripts\XRIRighthand.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\PoseProvider_NameDevice.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToDeviceInfoXRInput.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.16.1\Controller XRInput\Scripts\ActionToVector2XRInput.cs" />
